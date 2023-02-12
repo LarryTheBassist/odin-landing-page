@@ -57,7 +57,7 @@ button {
     justify-content: center;
     align-items: center;
     width: 300px;
-    background-color: hsl(214deg 7% 46%);
+    background-color: #6d747e;
     flex-grow: 1;
 }
 
@@ -80,4 +80,40 @@ header {
 
 .header-links li {
     margin-left: 15px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.squares {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 175px;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6d747e;
+}
+
+.card-text {
+    /* display: flex; */
+    text-align: center;
+}
+
+.square {
+    height: 175px;
+    width: auto;
+    border:solid 5px #3b82f6;
+    border-radius: 20px;
 }
