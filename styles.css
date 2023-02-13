@@ -89,11 +89,12 @@ header {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
-
+    padding-bottom: 5vw;
 }
 
 .squares {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -116,4 +117,28 @@ header {
     width: auto;
     border:solid 5px #3b82f6;
     border-radius: 20px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vw 20vw;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+}
+
+.quote-author {
+    align-self: flex-end;
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+    padding-right: 5vw;
 }
