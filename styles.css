@@ -181,3 +181,10 @@ header {
 .banner button {
     border: solid 2px #E5E7EB;
 }
+
+footer {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
