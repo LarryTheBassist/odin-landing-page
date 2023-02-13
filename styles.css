@@ -6,11 +6,15 @@ body {
     font-family: 'Roboto';
 }
 
+.section1, footer {
+    background-color: #1f2937;
+
+}
+
 .section1 {
     display: flex;
     flex-direction: column;
     padding: 0px 15vw 40px;
-    background-color: #1f2937;
     color: white;
 }
 
@@ -141,4 +145,38 @@ header {
     font-weight: 900;
     font-size: 24px;
     padding-right: 5vw;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9FAF8;
+    height: 50vh;
+/* padding: 15vh 15vw; */
+}
+
+.banner {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7vh 7vw;
+    border-radius: 10px;
+    margin: 20vh 0;
+    
+}
+
+.banner-text {
+
+}
+
+.banner-text * {
+    margin: 0;
+    margin-right: 15vw;
+    font-weight: 400;
+}
+
+.banner button {
+    border: solid 2px #E5E7EB;
 }
